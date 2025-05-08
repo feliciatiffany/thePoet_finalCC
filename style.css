@@ -1,0 +1,148 @@
+/* INDEX.html */
+body {
+    font-family: 'Special Elite', cursive;
+    background: #f9f9f9;
+    color: #222;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+
+.indexbody {
+    background-color: #fffef9;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+.zoomWrapper {
+    transform: scale(1.2);
+    transform-origin: center center;
+    width: 110vw; 
+    max-height: 100vh;
+    background-color: #fffef9;
+    overflow: hidden;
+    padding: 40px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+  
+  
+.titleIndex {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.poemText {
+    font-size: 1.9rem;
+    line-height: 1.9;
+
+    text-align: center;
+}
+  
+input[type="text"] {
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background-color: #fefefe;
+    width: 15%;
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+}
+  
+button {
+    font-family: inherit;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+  
+button:hover {
+    background-color: #444;
+}
+.soundIcon {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 0.3em;
+    opacity: 0.7;
+    transition: transform 0.3s ease;
+  }
+  
+.highlight {
+    padding: 4px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+.blue    { background-color: #d0e8ff; }
+.purple  { background-color: #e3d1ff; }
+.green   { background-color: #d6f5d6; }
+.yellow  { background-color: #fffac2; }
+.pink    { background-color: #ffd5e5; }
+.orange  { background-color: #ffe3c1; }
+.nude    { background-color: #f7f1d6; }
+
+
+  
+
+
+
+  
+
+/* POEMS HTML */
+
+
+#poemResult {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+  
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+button:hover {
+    background-color: #444;
+}
+  
+.gifStyle {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    opacity: 1;
+    pointer-events: none;
+    z-index: -1;
+}
+  

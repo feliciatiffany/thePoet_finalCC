@@ -2,20 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Poem Finder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <title>Poem Search</title>
+  <link rel="stylesheet" href="style.css">
+
   
 </head>
 <body>
+  <div class="indexbody">
+    <div class="zoomWrapper">
+      <h1 class="titleIndex">What’s on Your Mind?</h1>
+      <div class="poemText">
+        There's a weight in the air, not heavy, but full. You sip your drink, stare out a window that doesn’t quite open right, and you wonder <span class="highlight blue">what’s</span>  calling you back to this particular moment? Not work, not duty, but something more ancient, more personal. Maybe it’s hidden  <span class="highlight purple">in</span>  the pause between inhale and exhale, your fingers hovering over a text you won’t send, the unfinished note on <span class="highlight green">your</span>  desk. And then you feel it, the shift, the stirring, the unspoken thing that’s lived inside your <span class="highlight yellow">mind</span> for days now, or maybe longer. And just as you begin to reach for it, the question forms again, not loud but certain: what has stayed with you  <span class="highlight pink">lately?</span>, even when the world moves too fast to notice? Not  everything needs to be explained. Not every truth wants to be spoken aloud.   <input type="text" id="feelingInput" placeholder="e.g. lonely, bright sky">
+        <button onclick="startSearch()">Search Poems</button> <span class="highlight nude">Sound On</span> <img src="sound-png-3.png" class="soundIcon" alt="Sound Icon">   But maybe — just a little maybe — if you could find just <span class="highlight orange">One word</span>  , just one, it would be enough to begin.  
+          
+        You wake to the quiet hum beneath the noise — not silence, but something deeper, like the hush of water before it meets the shore. The world continues, unchanged in its rhythm, clocks ticking in kitchens, birds making morning declarations in a language you once swore you'd learn. But today, something is different. There's a weight in the air, not heavy, but full — like a sentence paused mid-thought. You sip your drink, stare out a window that doesn’t quite open right, and you wonder — quietly, sincerely — what’s calling you back to this particular moment? Not work, not duty, but something more ancient, more personal. Maybe it’s hidden in the pause between inhale and exhale, your fingers hovering over a text you won’t send, the unfinished note on your desk, the way you stare too long at a coat hook remembering the weight it once held. Maybe it’s a sound, or a glance, or just a memory with no name — but it rises anyway, like a tide. And then you feel it — subtle but sure — the shift, the stirring, the unspoken thing that’s lived inside your mind for days now, or maybe longer. It doesn’t shout. It waits. It knows it belongs. And just as you begin to reach for it, to give it a name, the question forms again, not loud but certain: what has stayed with you lately, even when the world moves too fast to notice? Not everything needs to be explained. Not every truth wants to be spoken aloud. But maybe — just maybe — if you could find one word, just one, it would be enough to begin.
+          
+          
+      
+      </div>
+    </div>
+   
+    
 
-    <h1>Feeling-Based Poem Finder</h1>
-    <div class="prompt">What's in your mind lately?</div>
-    <input type="text" id="feelingInput" placeholder="Enter your feeling (e.g. hope, sorrow)">
-    <button id="searchBtn">Search Poems</button>
-    <button id="anotherBtn" style="display:none;">Show Another</button>
-  
-    <div id="poemSection"></div>
-  
-    <script src="script.js"></script>
+  </div>
+ 
+  <audio id="bgSound" src="gentle-rain-for-relaxation-and-sleep-337279.mp3" preload="auto" loop></audio>
 
+  <script src="script.js"></script>
 </body>
 </html>

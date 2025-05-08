@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poem Results</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="poems.css">
+
+  
+</head>
+<body>
+  <div class="container">
+    
+    <div class="paperArea">
+      <div id="poemResult" class="poem"></div>
+    </div>
+
+      <div class="footerRow">
+        <button class="leftButton" onclick="goBack()"> Back </button>
+
+        <div>
+        <img src="typewriter_animation.gif" alt="Poetic Animation" class="centerGif">
+        <h2 class="wordHeader">Today's Word: <span id="wordDisplay">...</span></h2>
+        </div>
+
+        <div class="rightButtons">
+          <button onclick="showAnotherPoem()"> Show Another</button>
+          <button onclick="showFullPoem()"> Show Full Poem</button>
+        </div>
+    </div>
+
+    <audio id="typeSound" src="typewriter-301419.mp3" preload="auto"></audio>
+    <audio id="bgSound" src="gentle-rain-for-relaxation-and-sleep-337279.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
